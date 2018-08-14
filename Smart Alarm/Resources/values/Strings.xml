@@ -2,4 +2,21 @@
 <resources>
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">Smart Alarm</string>
+    <string name="app_name">Smart Alarm</string>
+    <string name="app_logo">App Logo</string>
+    <string name="group_name">Group</string>
+    <string name="alarm_name">Alarm Name</string>
+    <string name="memo">Memo</string>
+    <string name="vol">Volume</string>
+    <string name="alarm_sound">Alarm Sound</string>
+    <string name="snooze">Snooze</string>
+    <string name="fade">Fade In</string>
+    <string name="time">Time</string>
+    <string name="minusBtn">Minus Button</string>
+    <string name="plusBtn">Plus Button</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="ok">Ok</string>
+    <string name="time_picker_title">Set Alarm Time</string>
 </resources>

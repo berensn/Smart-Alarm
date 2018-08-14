@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
-</LinearLayout>
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/smartalarm"
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:id="@+id/appLogo"
+        android:contentDescription="@string/app_logo"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:background="#1f2653" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/appName"
+        android:contentDescription="@string/app_name"
+        android:text="@string/app_name"
+        android:textColor="#e7ebf2"
+        android:textSize="32sp"
+        android:layout_alignBottom="@id/appLogo"
+        android:layout_centerHorizontal="true"
+        android:background="#394174"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="-38dp" />
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/alarm_list" />
+</RelativeLayout>
